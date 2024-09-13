@@ -7,7 +7,7 @@ console.log(typeof myDate);             // Logs the type of myDate (object)
 
 // Create a new Date object for a specific date
 // Note: Months are zero-indexed (0 = January, 11 = December)
-let myCreatedDate = new Date(2023, 0, 23); // January 23, 2023
+//let myCreatedDate = new Date(2023, 0, 23); // January 23, 2023
 // let myCreatedDate = new Date(2023, 0, 23, 5, 3); // January 23, 2023 at 05:03
 let myCreatedDate = new Date('01-14-2024'); // Date format MM-DD-YYYY (Locale specific)
 // Console log to show the formatted date
